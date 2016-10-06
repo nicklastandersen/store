@@ -1,0 +1,38 @@
+#primary_menu {
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+  }
+}
+
+
+#service_menu {
+  left: 0;
+  top: 10px;
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  li {
+    display: inline-block;
+    float: right;
+  }
+
+  a {
+    display: block;
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 15px;
+    text-decoration: none;
+    &:hover {
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+#service_menu .current-menu-item a {
+  border-bottom: 2px solid white;
+}
+
+

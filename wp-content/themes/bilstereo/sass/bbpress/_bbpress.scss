@@ -1,0 +1,36 @@
+#bbpress-forums {
+    ul.odd {
+      background-color: #fff;
+      &:hover {
+        background-color: #fbfbfb;
+    }
+  }
+  ul.even {
+    background-color: #fff;
+    &:hover {
+      background-color: #fbfbfb;
+    }
+  }
+  .bbp-forum-avatar {
+      img {
+        width: 42px;
+        height: auto;
+        border-radius: 100%;
+      }
+    }
+    ul.bbp-forums {
+    border: 1px solid #DDD;
+    box-shadow: 0 1px 2.5px rgba(0, 0, 0, .075);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+
+  .bbp-forum-title {
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+
+
+

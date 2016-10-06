@@ -1,0 +1,54 @@
+@import "variables";
+
+body {
+  background-color: $background-body;
+  @media screen and (min-width: 768px) {
+    padding: 215px 15px 30px;
+  }
+}
+
+#wrapper, #container {
+  width: 1170px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  ::after, .container::after {
+    display: table;
+  }
+}
+
+.container {
+  width: 1170px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  ::after, .container::after {
+    display: table;
+  }
+}
+
+#main {
+  display: block;
+  box-sizing: inherit;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.brand {
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 268px;
+    height: 103px;
+  }
+}
+
+
+
+
+

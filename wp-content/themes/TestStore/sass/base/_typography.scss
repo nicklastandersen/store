@@ -1,0 +1,21 @@
+@import "variables";
+
+body {
+  color: $color_body;
+}
+
+a {
+  color: $color_links;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style: disc;
+  color: #000;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}

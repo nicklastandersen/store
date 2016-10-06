@@ -1,0 +1,21 @@
+#header {
+  background: #fff;
+  z-index: 99;
+  top: 0;
+  margin-top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 3px solid black;
+  @media screen and (min-width: 768px) {
+    position: fixed;
+    .site-branding {
+      padding: 25px 0 0 0;
+    }
+  }
+}
+
+.site-info {
+  p {
+    text-align: center;
+  }
+}

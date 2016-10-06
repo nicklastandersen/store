@@ -1,0 +1,19 @@
+07-29-2016 @ 13:11:35 - Queuing 2.6.0 - wc_update_260_options
+07-29-2016 @ 13:11:35 - Queuing 2.6.0 - wc_update_260_termmeta
+07-29-2016 @ 13:11:35 - Queuing 2.6.0 - wc_update_260_zones
+07-29-2016 @ 13:11:35 - Queuing 2.6.0 - wc_update_260_zone_methods
+07-29-2016 @ 13:11:35 - Queuing 2.6.0 - wc_update_260_refunds
+07-29-2016 @ 13:11:35 - Queuing 2.6.0 - wc_update_260_db_version
+07-29-2016 @ 13:11:35 - Running wc_update_260_options callback
+07-29-2016 @ 13:11:35 - Finished wc_update_260_options callback
+07-29-2016 @ 13:11:35 - Running wc_update_260_termmeta callback
+07-29-2016 @ 13:11:35 - Finished wc_update_260_termmeta callback
+07-29-2016 @ 13:11:35 - Running wc_update_260_zones callback
+07-29-2016 @ 13:11:35 - Finished wc_update_260_zones callback
+07-29-2016 @ 13:11:35 - Running wc_update_260_zone_methods callback
+07-29-2016 @ 13:11:35 - Finished wc_update_260_zone_methods callback
+07-29-2016 @ 13:11:35 - Running wc_update_260_refunds callback
+07-29-2016 @ 13:11:35 - Finished wc_update_260_refunds callback
+07-29-2016 @ 13:11:35 - Running wc_update_260_db_version callback
+07-29-2016 @ 13:11:35 - Finished wc_update_260_db_version callback
+07-29-2016 @ 13:11:35 - Data update complete

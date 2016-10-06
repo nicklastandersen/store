@@ -1,0 +1,53 @@
+.woocommerce {
+  span.onsale {
+    background-color: #000;
+  }
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  ul.products li.product .price {
+    color: #000;
+    font-weight: 400;
+    margin-bottom: .5em;
+    font-size: 1em;
+    del {
+      display: inline;
+      color: red;
+    }
+  }
+
+  button.button.alt {
+    background-color: #000;
+    &:hover {
+      background-color: #000;
+    }
+  }
+
+  .quantity .qty {
+    height: 1.9em;
+  }
+
+  button.button.alt:disabled[disabled] {
+    background-color: #000;
+    &:hover {
+      background-color: #000;
+    }
+  }
+
+  .woocommerce-message {
+    border-top-color: #000;
+    color: #000;
+    line-height: 2em;
+    &:before {
+      color: #000;
+    }
+  }
+}
+
+.single-product {
+  .woocommerce-breadcrumb {
+    margin: 1em 0 1.500em;
+  }
+}

@@ -1,0 +1,145 @@
+/* block */
+
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;
+    position: relative;
+    .#{$block-heading-selector}{
+        color: $block-module-heading-color;        
+        padding: $block-module-heading-padding;
+        font-size: $block-module-heading-font-size;
+        position: relative;
+        margin: 0;
+        letter-spacing: -1px;
+        > span{
+            position: relative;
+            &:before{
+                background: $brand-primary;
+                top:-20px;
+                content: "";
+                height: 3px;
+                @include rtl-left(0);
+                position: absolute;
+                width: 20px;
+            }
+            &:after{
+                background: #d9d9d9;
+                top:-18px;
+                content: "";
+                height: 1px;
+                @include rtl-left(20px);
+                position: absolute;
+                width: 20px;
+            }
+        }   
+    }
+    .widget-title-v2{
+        border-top: 1px solid $border-color;
+        > span{
+            background:$white;
+            position: relative;
+            top: -10px;
+            padding:0 20px;
+        } 
+    }
+    &.widget-carousel,&.widget-special{
+        .widget-content{
+            @include rtl-border-right(0);
+            @media (min-width: $screen-sm) and (max-width: $screen-sm-max){
+                @include rtl-border-right(1px solid $border-color);
+            }
+        }
+    }
+    .#{$block-content-selector} {
+        border: 1px solid $block-module-border-color;
+        background-color: $block-module-content-bg;
+
+    }
+    .#{$block-heading-reversed-selector}{
+        @include rtl-margin-right(75px);
+    }
+
+    /* block styles */
+    &.nopadding{
+        .#{$block-content-selector}{
+            padding:0;
+            margin: 0;
+        }
+    }
+
+}
+
+// Contextual variations
+
+.#{$block-prefix}-default {
+  @include block-variant($panel-default-border, $panel-default-text, #000, $panel-default-border);
+}
+.#{$block-prefix}-primary {
+  @include block-variant($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+.#{$block-prefix}-success {
+  @include block-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+}
+.#{$block-prefix}-info {
+  @include block-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+}
+.#{$block-prefix}-warning {
+  @include block-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+}
+.#{$block-prefix}-danger {
+  @include block-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+}
+
+/**
+ * Styling Css for widgets in Sidebar Left Static
+ */
+.#{$block-prefix}-static{
+    .#{$block-heading-selector}{
+        color:#FFFFFF;
+    }
+    ul li { border:none }
+}
+
+/**
+ * Styling Css for widgets in footer layout
+ */
+.pbr-footer{
+    .#{$block-selector} {
+        border:none;
+        box-shadow:none;    
+        margin-bottom: 0;  
+        background:transparent;  
+        .#{$block-heading-selector}{
+            font-size: 14px;
+            font-family: $headings-font-family;
+            & > span{
+                padding: 0px 0px;
+                &:before,&:after{
+                    content: none;
+                }
+            }
+            &:before{
+                background: $brand-primary;
+                top:-2px;
+                content: "";
+                height: 3px;
+                @include rtl-left(0);
+                position: absolute;
+                width: 20px;                
+            }
+            &:after{
+                background: #d9d9d9;
+                top:-0;
+                content: "";
+                height: 1px;
+                @include rtl-left(20px);
+                position: absolute;
+                width: 20px;
+            }
+        }
+        &.widget_nav_menu{
+            ul{
+                border:none;
+            }
+        }
+    }   
+}
