@@ -54,7 +54,6 @@
                     </ul>
                 </div>
             </div>
-
             <div class="header-bg"></div>
         </div>
 

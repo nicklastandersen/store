@@ -18,6 +18,9 @@
   padding-left: 15px;
   padding-right: 15px;
   display: block;
+  li {
+    list-style: none;
+  }
 }
 
 #footer-sidebar1 {
@@ -27,7 +30,7 @@
 }
 
 #footer-sidebar2 {
-  width: 33.3%;
+  width: 25.9%;
   float: left;
 }
 
@@ -35,4 +38,3 @@
   width: 33.3%;
   float: left;
 }
-

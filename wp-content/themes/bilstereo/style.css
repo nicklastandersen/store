@@ -440,11 +440,16 @@ body, html, form, code {
 }
 
 /* line 8, sass/base/_base.scss */
+aside {
+  display: block;
+}
+
+/* line 12, sass/base/_base.scss */
 ul {
   list-style-type: disc;
 }
 
-/* line 12, sass/base/_base.scss */
+/* line 16, sass/base/_base.scss */
 ol {
   list-style-type: decimal;
 }
@@ -588,35 +593,30 @@ h1, h2, h3, h4, h5 {
   padding-right: 15px;
   display: block;
 }
+/* line 21, sass/layout/_footer.scss */
+.footer-inner li {
+  list-style: none;
+}
 
-/* line 23, sass/layout/_footer.scss */
+/* line 26, sass/layout/_footer.scss */
 #footer-sidebar1 {
   width: 33.3%;
   float: left;
 }
 
-/* line 29, sass/layout/_footer.scss */
+/* line 32, sass/layout/_footer.scss */
 #footer-sidebar2 {
-  width: 33.3%;
+  width: 25.9%;
   float: left;
 }
 
-/* line 34, sass/layout/_footer.scss */
+/* line 37, sass/layout/_footer.scss */
 #footer-sidebar3 {
   width: 33.3%;
   float: left;
 }
 
-/* line 2, sass/components/_menu.scss */
-#primary_menu li {
-  display: inline-block;
-}
-/* line 5, sass/components/_menu.scss */
-#primary_menu a {
-  display: block;
-}
-
-/* line 11, sass/components/_menu.scss */
+/* line 1, sass/components/_menu.scss */
 #service_menu {
   left: 0;
   top: 10px;
@@ -624,25 +624,29 @@ h1, h2, h3, h4, h5 {
   z-index: 1000;
   width: 100%;
 }
-/* line 17, sass/components/_menu.scss */
-#service_menu li {
-  display: inline-block;
-  float: right;
-}
-/* line 22, sass/components/_menu.scss */
+/* line 7, sass/components/_menu.scss */
 #service_menu a {
-  display: block;
   margin-left: 8px;
   color: rgba(255, 255, 255, 0.86);
   font-size: 15px;
-  text-decoration: none;
 }
-/* line 28, sass/components/_menu.scss */
+/* line 11, sass/components/_menu.scss */
 #service_menu a:hover {
   border-bottom: 2px solid white;
 }
 
-/* line 34, sass/components/_menu.scss */
+/* line 18, sass/components/_menu.scss */
+nav li {
+  display: inline-block;
+  float: right;
+}
+/* line 21, sass/components/_menu.scss */
+nav li a {
+  display: block;
+  text-decoration: none;
+}
+
+/* line 27, sass/components/_menu.scss */
 #service_menu .current-menu-item a {
   border-bottom: 2px solid white;
 }
