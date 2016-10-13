@@ -576,16 +576,15 @@ h1, h2, h3, h4, h5 {
 /* line 4, sass/layout/_footer.scss */
 #footer .site-info {
   width: 100%;
-  display: block;
-  padding-bottom: 1px;
+  display: inline-block;
 }
-/* line 8, sass/layout/_footer.scss */
+/* line 7, sass/layout/_footer.scss */
 #footer .site-info p {
   text-align: center;
   font-size: 14px;
 }
 
-/* line 15, sass/layout/_footer.scss */
+/* line 14, sass/layout/_footer.scss */
 .footer-inner {
   position: relative;
   min-height: 1px;
@@ -593,24 +592,20 @@ h1, h2, h3, h4, h5 {
   padding-right: 15px;
   display: block;
 }
-/* line 21, sass/layout/_footer.scss */
-.footer-inner li {
-  list-style: none;
-}
 
-/* line 26, sass/layout/_footer.scss */
+/* line 22, sass/layout/_footer.scss */
 #footer-sidebar1 {
   width: 33.3%;
   float: left;
 }
 
-/* line 32, sass/layout/_footer.scss */
+/* line 28, sass/layout/_footer.scss */
 #footer-sidebar2 {
   width: 25.9%;
   float: left;
 }
 
-/* line 37, sass/layout/_footer.scss */
+/* line 33, sass/layout/_footer.scss */
 #footer-sidebar3 {
   width: 33.3%;
   float: left;

@@ -4,7 +4,8 @@
 
 <footer id="footer" class="site-footer" role="contentinfo">
     <div class="container">
-        <aside id="sidebar-footer" class="sidebar sidebar-footer widget-area row">
+        <aside id="sidebar-footer" class="sidebar sidebar-footer" role="complementary">
+            <div class="row">
                 <aside id="footer-sidebar1" class="footer-inner">
                     <?php
                     if(is_active_sidebar('footer-sidebar-1')){
@@ -26,12 +27,16 @@
                     }
                     ?>
                 </aside>
+            </div>
         </aside>
+        <div class="row">
+            <div class="site-info">
+                <p>&copy; <?php echo date('Y'); ?> - Nicklas Andersen </p>
+            </div>
         </div>
-
-    <div class="site-info container">
-        <p>&copy; <?php echo date('Y'); ?> - Nicklas Andersen </p>
     </div>
+
+
 </footer>
 
 <!-- Wrapper Ends -->

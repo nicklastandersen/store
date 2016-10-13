@@ -3,8 +3,7 @@
   color: #c4c4c4;
   .site-info {
     width: 100%;
-    display: block;
-    padding-bottom: 1px;
+    display: inline-block;
     p {
       text-align: center;
       font-size: 14px;
@@ -18,9 +17,6 @@
   padding-left: 15px;
   padding-right: 15px;
   display: block;
-  li {
-    list-style: none;
-  }
 }
 
 #footer-sidebar1 {
